@@ -1,0 +1,42 @@
+.main{
+    width: 1600px;
+    height: 900px;
+    background-color: #002565; 
+    display: grid;
+    gap: 160px 160px;
+    grid-template-column: 1fr 1fr 1fr;
+    grid-template-row: 1fr 1fr;
+  }
+  
+  .box {
+    background-color: red;
+    box-sizing: border-box; 
+  }
+  
+  .parte1 {
+    border-right: 48px solid white;
+    border-bottom: 48px solid white;
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  
+  .parte2 {
+    border-left: 48px solid white;
+    border-bottom: 48px solid white;
+    grid-row: 1/2;
+    grid-column: 2/4;
+  }
+  
+  .parte3 {
+    border-top: 48px solid white;
+    border-right: 48px solid white;
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  
+  .parte4 {
+    border-top: 48px solid white;
+    border-left: 48px solid white;
+    grid-row: 2/3;
+    grid-column: 2/4;
+  }

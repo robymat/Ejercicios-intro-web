@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+}
+.Parte1{
+   
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #002565;
+}
+.Parte2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #002565;
+
+}
+
+.Parte1arriba{
+   
+    width: 90%;
+    height: 40%;
+  
+    background: white;
+}
+
+.Parte1abajo{
+    
+    width: 90%;
+    height: 40%;
+   
+    display: flex;
+    align-items: flex-end;
+    background: white;
+}
+
+.Parterojo{
+   
+    width: 90%;
+    height: 90%;
+   
+    background: red;
+}
+
+.Parte2arriba{
+    width: 90%;
+    height: 40%;
+   
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.Parte2abajo  {
+    
+    width: 90%;
+    height: 40%;
+   
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: white;
+}
+.Parterojo2{
+    width: 95%;
+    height: 90%;
+    background: red;
+} 
